@@ -19,4 +19,34 @@ end =dt.datetime(2016,12,31)
 df = web.DataReader('TSLA','yahoo', start, end)
 #print (df.head()) #by defualt it will print top 5 lines but i can adjsut to more lines
 #print (df.head(50)) #i can adjsut to more lines
-print (df.tail()) #can get end of file
+
+#print (df.tail()) #can get end of file
+
+
+
+
+
+df = pd.read_csv('tsla.csv')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
